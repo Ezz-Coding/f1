@@ -9,7 +9,7 @@ overflow: hidden;
  .body{
 
     width: 100%;
-height: 850px;
+height: 1050px;
   
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -20,21 +20,8 @@ z-index: 1;
 transition: .5s;
 }
 
-.color2{
 
-    width: 100%;
-    height: 100%;
-   
-}
-.color2 div{
-  border-radius: 20px;
-    width: 100%;
-    height: 100%;
-   background-color:  #1d1b1b;
-   transition: .2s;
-   box-shadow: 0 0 100px 10px black;
 
-}
 .body :hover{
     background-color: black;
 }
