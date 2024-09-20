@@ -1,0 +1,814 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,black,lightgray) ;
+overflow: hidden;
+}
+ .body{
+
+    width: 100%;
+height: 850px;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    
+z-index: 1;
+    
+transition: .5s;
+}
+
+.color2{
+
+    width: 100%;
+    height: 100%;
+   
+}
+.color2 div{
+  border-radius: 20px;
+    width: 100%;
+    height: 100%;
+   background-color:  #1d1b1b;
+   transition: .2s;
+   box-shadow: 0 0 100px 10px black;
+
+}
+.body :hover{
+    background-color: black;
+}
+.color2:hover div{
+    background-color: rebeccapurple;
+     box-shadow: 0px 0px 100px 10px rebeccapurple;
+     transform: scale(1.2);
+}
+
+.space1{
+   
+  height: 10px; 
+
+}
+.font1 h1{
+   
+   
+    text-align: center;
+    color: aliceblue;
+   
+    font-size: x-large;
+}
+.we {
+   
+   
+    
+    animation: I3 5s  forwards;
+    
+}
+.to  {
+   
+   
+    
+    animation: I4 5s  forwards;
+    
+}
+.da  {
+   
+   
+    
+    animation: I5 5s  forwards;
+    
+}
+.parants{
+
+   
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+label{
+    font-size: x-large;
+color: blue;
+font-weight: bold;
+}
+#na{
+    border-radius: 20px;
+    width: 400px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.359);
+    transition: .5s;
+    
+}
+#Price{
+    border-radius: 20px;
+    width: 400px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.359);
+    transition: .5s;
+    
+}
+#Discuont{
+    border-radius: 20px;
+    width: 400px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.359);
+    
+    transition: .5s;
+}
+#Type{
+    border-radius: 20px;
+    width: 400px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.359);
+    transition: .5s;
+    
+}
+input{
+    color: aliceblue;
+}
+#na:focus{
+    background-color: hsla(0, 4%, 11%, 0.303);
+    transform: scale(1.1);
+
+}
+#Price:focus{
+    background-color: hsla(0, 4%, 11%, 0.303);
+    transform: scale(1.1);
+}
+#Discuont:focus{
+    background-color: hsla(0, 4%, 11%, 0.303);
+    transform: scale(1.1);
+}
+#Type:focus{
+    background-color: hsla(0, 4%, 11%, 0.303);
+    transform: scale(1.1);
+}
+#sum{
+    width: 150px;
+    border-radius: 40px;
+    height: 60px;
+    color: aliceblue;
+   animation: I2 5s  forwards;
+    transition: .5s;
+    border: 0;
+    font-size: x-large;
+    margin-right: 15px;
+   
+}
+#sum:hover{
+   transform: scale(1.2);
+   box-shadow: 0 0 100px 10px blue;
+   letter-spacing: 5px;
+}
+#sum1{
+    width: 150px;
+    border-radius: 40px;
+    height: 60px;
+    color: aliceblue;
+   animation: I1 5s  forwards;
+    transition: .5s;
+    border: 0;
+    font-size: x-large;
+}
+#sum1:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 100px 10px darkorchid;
+    letter-spacing: 5px;
+}
+@keyframes I2 {
+    0%{
+       background-color: black;
+    }
+    20%{
+        
+    }
+    60%{
+   box-shadow: 0 0 100px 10px blue;
+
+        background-color: blue;
+
+    }
+    100%{
+        background-color: darkblue;
+    }
+   
+
+}
+@keyframes I1 {
+    0%{
+       background-color: black;
+    }
+    20%{
+        
+    }
+    60%{
+   box-shadow: 0 0 100px 10px darkorchid;
+
+        background-color: darkorchid;
+
+    }
+    100%{
+        background-color: darkorchid;
+    }
+   
+
+}
+@keyframes I3 {
+    0%{
+        position: relative;
+     top: 5%;
+     left:-10%;
+
+    }
+    20%{
+        top: 5%;
+     left: 0%; 
+    }
+    60%{
+        color: darkorchid;
+    }
+    100%{
+        color: blue;
+        
+
+        font-size: xx-large;
+
+     
+    }
+
+}
+@keyframes I4 {
+    0%{
+        position: relative;
+        top: 5%;
+        left:-15%;
+
+    }
+   
+    21%{
+   
+        top: 5%;
+        left: 0%; 
+      
+
+    }
+    60%{
+        color: blue;
+      
+    }
+    100%{
+        color: red;
+        font-size: xx-large;
+
+     
+    }
+   
+
+}
+@keyframes I5 {
+    0%{
+        position: relative;
+     top: 5%;
+     left:-20%;
+
+    }
+   
+    23%{
+        top: 5%;
+        left: 0%; 
+
+      
+
+    }
+    60%{
+       color: red;
+    }
+    100%{
+       color: darkorchid;
+
+       font-size: xx-large;
+     
+    }
+   
+
+
+}
+.color3{
+    display: none;
+}
+.color3{
+    display: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,black,darkgray) ;
+overflow: hidden;
+}
+ .body{
+
+    width: 100%;
+height: 870px;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(11,1fr);
+    gap: 8px 10px;
+    border-radius: 40px;
+
+    
+z-index: 1;
+    
+transition: .5s;
+}
+
+
+.color21 div{
+  border-radius: 20px;
+    width: 100%;
+    height: 100%;
+   background-color:  #1d1b1b;
+   transition: .2s;
+   box-shadow: 0 0 100px 10px black;
+
+}
+   
+.color22 div{
+    border-radius: 20px;
+      width: 100%;
+      height: 100%;
+     background-color:  #1d1b1b;
+     transition: .2s;
+     box-shadow: 0 0 100px 10px black;
+  
+  }   
+  .color23 div{
+    border-radius: 20px;
+      width: 100%;
+      height: 100%;
+     background-color:  #1d1b1b;
+     transition: .2s;
+     box-shadow: 0 0 100px 10px black;
+  
+  }   
+  .color24 div{
+    border-radius: 20px;
+      width: 100%;
+      height: 100%;
+     background-color:  #1d1b1b;
+     transition: .2s;
+     box-shadow: 0 0 100px 10px black;
+  
+  }   
+  .color25 div{
+    border-radius: 20px;
+      width: 100%;
+      height: 100%;
+     background-color:  #1d1b1b;
+     transition: .2s;
+     box-shadow: 0 0 100px 10px black;
+  
+  }   
+  .color36 div{
+    border-radius: 20px;
+      width: 100%;
+      height: 100%;
+     background-color:  #1d1b1b;
+     transition: .2s;
+     box-shadow: 0 0 100px 10px black;
+  
+  }   
+  .color37 div{
+    border-radius: 20px;
+      width: 100%;
+      height: 100%;
+     background-color:  #1d1b1b;
+     transition: .2s;
+     box-shadow: 0 0 100px 10px black;
+  
+  }   
+  .color38 div{
+    border-radius: 20px;
+      width: 100%;
+      height: 100%;
+     background-color:  #1d1b1b;
+     transition: .2s;
+     box-shadow: 0 0 100px 10px black;
+  
+  }   
+  .color39 div{
+    border-radius: 20px;
+      width: 100%;
+      height: 100%;
+     background-color:  #1d1b1b;
+     transition: .2s;
+     box-shadow: 0 0 100px 10px black;
+  
+  }   
+  .color30 div{
+    border-radius: 20px;
+      width: 100%;
+      height: 100%;
+     background-color:  #1d1b1b;
+     transition: .2s;
+     box-shadow: 0 0 100px 10px black;
+  
+  }   
+  .color211 div{
+    border-radius: 20px;
+      width: 100%;
+      height: 100%;
+     background-color:  #1d1b1b;
+     transition: .2s;
+     box-shadow: 0 0 50px 10px black;
+  
+  }
+.body :hover{
+    border-radius: 20px;
+
+    background-color: rgb(22, 22, 151);
+    box-shadow: 0 0 100px 50px black;
+    transform: scale(1.1);
+}
+.color21 ,
+.color22,
+.color23,
+.color24,
+.color25,
+.color36,
+.color37,
+.color38,
+.color39,
+.color30,
+.color31:hover div{
+  background-color: #1d1b1b;
+     box-shadow: 0px 0px 0px 0px ;
+     transform: scale(1);
+}
+
+@media (max-width : 600px) {
+    .color3{
+        display: none;
+    }
+    body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to right,black,rgb(21, 51, 183)) ;
+    overflow: hidden;
+    }
+     .body{
+    
+        width: 100%;
+    height: 670px;
+      
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 25px 15px;
+        border-radius: 40px;
+    
+        
+    z-index: 1;
+        
+    transition: .5s;
+    }
+    
+   
+    .color21 div{
+ display: none;
+    
+    }
+       
+    .color22 div{
+        display: none;
+
+      }   
+      .color23 div{
+        display: none;
+
+      }   
+      .color24 div{
+        display: none;
+
+      }   
+      .color25 div{
+        display: none;
+
+      }   
+      .color36 div{
+        display: none;
+
+      }   
+      .color37 div{
+        display: none;
+
+      }   
+      .color38 div{
+        display: none;
+
+      }   
+      .color39 div{
+        display: none;
+
+      }   
+      .color30 div{
+        display: none;
+
+      }   
+      .color211 div{
+        display: none;
+
+      }
+    .body :hover{
+        border-radius: 20px;
+
+        background-color: rgb(148, 44, 44);
+    }
+    .color21 ,
+    .color22,
+    .color23,
+    .color24,
+    .color25,
+    .color36,
+    .color37,
+    .color38,
+    .color39,
+    .color30,
+    .color31:hover div{
+     
+       display: none;
+    }
+   
+  
+    
+
+   
+    .space1{
+       
+      height: 10px; 
+    
+    }
+    .font1 h1{
+       
+      margin-top: 100px; 
+        text-align: center;
+        color: aliceblue;
+       
+        font-size: x-small;
+    }
+    .we {
+       
+       
+        
+        animation: I3 5s  forwards;
+        
+    }
+    .to  {
+       
+       
+        
+        animation: I4 5s  forwards;
+        
+    }
+    .da  {
+       
+       
+        
+        animation: I5 5s  forwards;
+        
+    }
+    .parants{
+    
+       
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 2;
+    }
+    label{
+        font-size: small;
+    color: blue;
+    font-weight: bold;
+    margin-left: 10px;
+ 
+
+    }
+    #na{
+     
+        margin-left: 70px;
+        border-radius: 20px;
+        width: 150px;
+        height: 40px;
+        background-color: rgba(0, 0, 0, 0.359);
+        transition: .5s;
+        
+    }
+    #Price{
+        margin-left: 70px;
+
+        border-radius: 20px;
+        width: 150px;
+        height: 40px;
+        background-color: rgba(0, 0, 0, 0.359);
+        transition: .5s;
+        
+    }
+    #Discuont{
+        margin-left: 70px;
+
+        border-radius: 20px;
+        width: 150px;
+        height: 40px;
+        background-color: rgba(0, 0, 0, 0.359);
+        
+        transition: .5s;
+    }
+    #Type{
+        margin-left: 70px;
+
+        border-radius: 20px;
+        width: 150px;
+        height: 40px;
+        background-color: rgba(0, 0, 0, 0.359);
+        transition: .5s;
+        
+    }
+    input{
+        color: aliceblue;
+    }
+    #na:focus{
+        background-color: hsla(0, 4%, 11%, 0.303);
+        transform: scale(1.1);
+    
+    }
+    #Price:focus{
+        background-color: hsla(0, 4%, 11%, 0.303);
+        transform: scale(1.1);
+    }
+    #Discuont:focus{
+        background-color: hsla(0, 4%, 11%, 0.303);
+        transform: scale(1.1);
+    }
+    #Type:focus{
+        background-color: hsla(0, 4%, 11%, 0.303);
+        transform: scale(1.1);
+    }
+    #sum{
+        width: 70px;
+        border-radius: 40px;
+        height: 40px;
+        color: aliceblue;
+        background-color: blue;
+        animation: none;
+        transition: .5s;
+        border: 0;
+        font-size: small;
+        margin-right: 15px;
+        margin-top: 50px;
+        margin-left: 50px;
+       
+    }
+    #sum:hover{
+       transform: scale(1);
+       box-shadow: 0 0 100px 10px blue;
+       letter-spacing: 2px;
+    }
+    #sum1{
+        background-color: darkmagenta;
+        width: 70px;
+        border-radius: 40px;
+        height: 40px;
+        color: aliceblue;
+      animation: none;
+        transition: .5s;
+        border: 0;
+        font-size: small;
+    }
+    #sum1:hover{
+        transform: scale(1);
+        box-shadow: 0 0 100px 10px darkorchid;
+        letter-spacing: 2px;
+    }
+    @keyframes I2 {
+        0%{
+           background-color: black;
+        }
+        20%{
+            
+        }
+        60%{
+       box-shadow: 0 0 100px 10px blue;
+    
+            background-color: blue;
+    
+        }
+        100%{
+            background-color: darkblue;
+        }
+       
+    
+    }
+    @keyframes I1 {
+        0%{
+           background-color: black;
+        }
+        20%{
+            
+        }
+        60%{
+       box-shadow: 0 0 100px 10px darkorchid;
+    
+            background-color: darkorchid;
+    
+        }
+        100%{
+            background-color: darkorchid;
+        }
+       
+    
+    }
+    @keyframes I3 {
+        0%{
+            position: relative;
+         top: 5%;
+         left:-10%;
+    
+        }
+        20%{
+            top: 5%;
+         left: 0%; 
+        }
+        60%{
+            color: darkorchid;
+        }
+        100%{
+            color: blue;
+            
+    
+            font-size: large;
+    
+         
+        }
+    
+    }
+    @keyframes I4 {
+        0%{
+            position: relative;
+            top: 5%;
+            left:-15%;
+    
+        }
+       
+        21%{
+       
+            top: 5%;
+            left: 0%; 
+          
+    
+        }
+        60%{
+            color: blue;
+          
+        }
+        100%{
+            color: red;
+            font-size: large;
+    
+         
+        }
+       
+    
+    }
+    @keyframes I5 {
+        0%{
+            position: relative;
+         top: 5%;
+         left:-20%;
+    
+        }
+       
+        23%{
+            top: 5%;
+            left: 0%; 
+    
+          
+    
+        }
+        60%{
+           color: red;
+        }
+        100%{
+           color: darkorchid;
+    
+           font-size: large;
+         
+        }
+       
+    
+    }   
+}
