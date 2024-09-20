@@ -1,35 +1,12 @@
-body{
+body ,html{
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right,black,lightgray) ;
+    background: linear-gradient(to right,gray,blue) ;
 overflow: hidden;
 }
- .body{
 
-    width: 100%;
-height: 1050px;
-  
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-
-    
-z-index: 1;
-    
-transition: .5s;
-}
-
-
-
-.body :hover{
-    background-color: black;
-}
-.color2:hover div{
-    background-color: rebeccapurple;
-     box-shadow: 0px 0px 100px 10px rebeccapurple;
-     transform: scale(1.2);
-}
 
 .space1{
    
@@ -281,160 +258,7 @@ input{
 
 
 }
-.color3{
-    display: none;
-}
-.color3{
-    display: none;
-}
-body{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to right,black,darkgray) ;
-overflow: hidden;
-}
- .body{
 
-    width: 100%;
-height: 870px;
-  
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(11,1fr);
-    gap: 8px 10px;
-    border-radius: 40px;
-
-    
-z-index: 1;
-    
-transition: .5s;
-}
-
-
-.color21 div{
-  border-radius: 20px;
-    width: 100%;
-    height: 100%;
-   background-color:  #1d1b1b;
-   transition: .2s;
-   box-shadow: 0 0 100px 10px black;
-
-}
-   
-.color22 div{
-    border-radius: 20px;
-      width: 100%;
-      height: 100%;
-     background-color:  #1d1b1b;
-     transition: .2s;
-     box-shadow: 0 0 100px 10px black;
-  
-  }   
-  .color23 div{
-    border-radius: 20px;
-      width: 100%;
-      height: 100%;
-     background-color:  #1d1b1b;
-     transition: .2s;
-     box-shadow: 0 0 100px 10px black;
-  
-  }   
-  .color24 div{
-    border-radius: 20px;
-      width: 100%;
-      height: 100%;
-     background-color:  #1d1b1b;
-     transition: .2s;
-     box-shadow: 0 0 100px 10px black;
-  
-  }   
-  .color25 div{
-    border-radius: 20px;
-      width: 100%;
-      height: 100%;
-     background-color:  #1d1b1b;
-     transition: .2s;
-     box-shadow: 0 0 100px 10px black;
-  
-  }   
-  .color36 div{
-    border-radius: 20px;
-      width: 100%;
-      height: 100%;
-     background-color:  #1d1b1b;
-     transition: .2s;
-     box-shadow: 0 0 100px 10px black;
-  
-  }   
-  .color37 div{
-    border-radius: 20px;
-      width: 100%;
-      height: 100%;
-     background-color:  #1d1b1b;
-     transition: .2s;
-     box-shadow: 0 0 100px 10px black;
-  
-  }   
-  .color38 div{
-    border-radius: 20px;
-      width: 100%;
-      height: 100%;
-     background-color:  #1d1b1b;
-     transition: .2s;
-     box-shadow: 0 0 100px 10px black;
-  
-  }   
-  .color39 div{
-    border-radius: 20px;
-      width: 100%;
-      height: 100%;
-     background-color:  #1d1b1b;
-     transition: .2s;
-     box-shadow: 0 0 100px 10px black;
-  
-  }   
-  .color30 div{
-    border-radius: 20px;
-      width: 100%;
-      height: 100%;
-     background-color:  #1d1b1b;
-     transition: .2s;
-     box-shadow: 0 0 100px 10px black;
-  
-  }   
-  .color211 div{
-    border-radius: 20px;
-      width: 100%;
-      height: 100%;
-     background-color:  #1d1b1b;
-     transition: .2s;
-     box-shadow: 0 0 50px 10px black;
-  
-  }
-.body :hover{
-    border-radius: 20px;
-
-    background-color: rgb(22, 22, 151);
-    box-shadow: 0 0 100px 50px black;
-    transform: scale(1.1);
-}
-.color21 ,
-.color22,
-.color23,
-.color24,
-.color25,
-.color36,
-.color37,
-.color38,
-.color39,
-.color30,
-.color31:hover div{
-  background-color: #1d1b1b;
-     box-shadow: 0px 0px 0px 0px ;
-     transform: scale(1);
-}
 
 @media (max-width : 600px) {
     .color3{
@@ -448,90 +272,7 @@ transition: .5s;
         background: linear-gradient(to right,black,rgb(21, 51, 183)) ;
     overflow: hidden;
     }
-     .body{
-    
-        width: 100%;
-    height: 670px;
-      
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        gap: 25px 15px;
-        border-radius: 40px;
-    
-        
-    z-index: 1;
-        
-    transition: .5s;
-    }
-    
    
-    .color21 div{
- display: none;
-    
-    }
-       
-    .color22 div{
-        display: none;
-
-      }   
-      .color23 div{
-        display: none;
-
-      }   
-      .color24 div{
-        display: none;
-
-      }   
-      .color25 div{
-        display: none;
-
-      }   
-      .color36 div{
-        display: none;
-
-      }   
-      .color37 div{
-        display: none;
-
-      }   
-      .color38 div{
-        display: none;
-
-      }   
-      .color39 div{
-        display: none;
-
-      }   
-      .color30 div{
-        display: none;
-
-      }   
-      .color211 div{
-        display: none;
-
-      }
-    .body :hover{
-        border-radius: 20px;
-
-        background-color: rgb(148, 44, 44);
-    }
-    .color21 ,
-    .color22,
-    .color23,
-    .color24,
-    .color25,
-    .color36,
-    .color37,
-    .color38,
-    .color39,
-    .color30,
-    .color31:hover div{
-     
-       display: none;
-    }
-   
-  
-    
 
    
     .space1{
